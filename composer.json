@@ -1,0 +1,16 @@
+{
+  "require": {
+    "doctrine/orm": "^2.6.2",
+    "symfony/yaml": "2.*",
+    "fzaninotto/faker": "^1.9",
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.1",
+    "php-di/php-di": "^6.1",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "./doctrine/Models"
+    },
+  }
+}
